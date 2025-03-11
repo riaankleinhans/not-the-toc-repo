@@ -1,0 +1,27 @@
+# {{.Name}}
+
+## Mission Statement
+{{ .MissionStatement }}
+
+## Leadership
+{{- if .Leadership.Chairs }}
+### Chairs
+{{- range .Leadership.Chairs }}
+- {{.Name}} (**[@{{.GitHub}}](https://github.com/{{.GitHub}})**){{if .Company}}, {{.Company}}{{end}}
+{{- end }}
+{{- end }}
+
+## Meetings
+{{- range .Meetings }}
+- **{{.Description}}**: {{.Day}} at {{.Time}} {{.TZ}}, {{.Frequency}}  
+  [Meeting Notes]({{.ArchiveURL}}) | [Recordings]({{.RecordingsURL}})
+{{- end }}
+
+## Contact
+- Slack: [#{{.Contact.Slack}}](https://kubernetes.slack.com/messages/{{.Contact.Slack}})
+- [Mailing List]({{.Contact.MailingList}})
+
+## Subprojects
+{{- range .TagSubprojects }}
+- **{{.Name}}** ([Mailing List]({{.Contact.MailingList}}))
+{{- end }}

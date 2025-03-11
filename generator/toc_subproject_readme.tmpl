@@ -1,0 +1,26 @@
+# {{.Name}}
+
+## Mission Statement
+{{ .MissionStatement }}
+
+## Leadership
+{{- if .Leadership.Chairs }}
+### Chairs
+{{- range .Leadership.Chairs }}
+- {{.Name}} (**[@{{.GitHub}}](https://github.com/{{.GitHub}})**){{if .Company}}, {{.Company}}{{end}}
+{{- end }}
+{{- end }}
+
+## Meetings
+{{- range .Meetings }}
+- **{{.Description}}**: {{.Day}} at {{.Time}} {{.TZ}}, {{.Frequency}}  
+  {{- if .ArchiveURL }} [Meeting Notes]({{.ArchiveURL}}) {{- end }}
+  {{- if .RecordingsURL }} | [Recordings]({{.RecordingsURL}}) {{- end }}
+  {{- if .URL }} | [Zoom]({{.URL}}) {{- end }}
+  {{- if .CalendarURL }} | [Calendar]({{.CalendarURL}}) {{- end }}
+{{- end }}
+
+## Contact
+- Slack: [#{{.Contact.Slack}}](https://kubernetes.slack.com/messages/{{.Contact.Slack}})
+- [Mailing List]({{.Contact.MailingList}})
+- TOC Liaison: {{.Contact.TOCLiaison.Name}} (**[@{{.Contact.TOCLiaison.GitHub}}](https://github.com/{{.Contact.TOCLiaison.GitHub}})**)

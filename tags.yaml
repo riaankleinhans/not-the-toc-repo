@@ -1,0 +1,154 @@
+tags:
+- dir: tag-developer-experience
+  name: TAG Developer Experience
+  mission_statement: >
+    Foo-Baz-Bar
+
+  charter_link: charter.md
+  label: tag-developer-experience
+  leadership:
+    chairs:
+      - github: riaankleinhans
+        name: Riaan Kleinhans
+        company: Linux Foundation
+        email: rkleinhans@contractor.linuxfoundation.org
+    tech_leads:
+      - github: riaankleinhans
+        name: Riaan Kleinhans
+        company: Linux Foundation
+        email: rkleinhans@contractor.linuxfoundation.org
+  meetings:
+  - description: TAG Developer Experience
+    day: Thursday
+    time: "11:00"
+    tz: PT (Pacific Time)
+    frequency: biweekly
+    archive_url: https://docs.google.com/document/foo
+    recordings_url: https://www.youtube.com/playlist?foo
+  contact:
+    slack: tag-developer-experience
+    mailing_list: https://groups.google.com/forum/#!forum/foo
+    toc_liaison:
+     github: angellk
+     name: Karena Angell
+  tag_subprojects:
+  - name: developer-sub-foo
+    contact:
+      mailing_list: https://groups.google.com/foo
+    owners:
+    - https://raw.githubusercontent.com/kubernetes-sigs/apiserver-builder-alpha/master/OWNERS
+- dir: tag-security
+  name: TAG Security
+  mission_statement: >
+    Foo-Baz-Bar
+
+  charter_link: charter.md
+  label: tag-security
+  leadership:
+    chairs:
+      - github: riaankleinhans
+        name: Riaan Kleinhans
+        company: Linux Foundation
+        email: rkleinhans@contractor.linuxfoundation.org
+    tech_leads:
+      - github: riaankleinhans
+        name: Riaan Kleinhans
+        company: Linux Foundation
+        email: rkleinhans@contractor.linuxfoundation.org
+  meetings:
+  - description: TAG Security
+    day: Thursday
+    time: "11:00"
+    tz: PT (Pacific Time)
+    frequency: biweekly
+    archive_url: https://docs.google.com/document/foo
+    recordings_url: https://www.youtube.com/playlist?foo
+  contact:
+    slack: tag-security
+    mailing_list: https://groups.google.com/forum/#!forum/foo
+    toc_liaison:
+     github: angellk
+     name: Karena Angell
+  tag_subprojects:
+  - name: securtiy-foo
+    contact:
+      mailing_list: https://groups.google.com/foo
+    owners:
+    - https://raw.githubusercontent.com/kubernetes-sigs/apiserver-builder-alpha/master/OWNERS
+toc_subprojects:
+- dir: contributor-strategy-subproject
+  name: Contributor Strategy Subproject
+  mission_statement: >
+    Fooo
+
+  charter_link: charter.md
+  label: contributor-strategy-subproject
+  leadership:
+    chairs:
+    - github: johndoe
+      name: John Doe
+      company: Red Hat
+      email: kehannon@redhat.com
+  meetings:
+  - description: Contributor Strategy Subproject Regular Meeting
+    day: Thursdays
+    time: 3PM
+    tz: CET (Central European Time)
+    frequency: monthly
+    url: https://zoom.us/j/foo
+    archive_url: https://docs.google.com/document/foo
+    recordings_url: https://www.youtube.com/foo
+    calendar_url: https://calendar.google.com/calendar/foo
+  - description: Contributor Strategy Subproject Governance Meeting
+    day: Thursdays (starting February 1st 2024)
+    time: 3PM
+    tz: PT (Pacific Time)
+    frequency: monthly
+    url: https://zoom.us/j/foo
+    archive_url: https://docs.google.com/document/d/foo
+    recordings_url: https://www.youtube.com/playlist?list=foo
+    calendar_url: https://calendar.google.com/calendar/embed?src=foo
+  contact:
+    slack: wg-batch
+    mailing_list: https://groups.google.com/a/kubernetes.io/g/wg-batch
+    toc_liaison:
+      github: angellk
+      name: Karena Angell
+- dir: the-other-subproject
+  name: The Other Subproject
+  mission_statement: >
+    Fooo
+
+  charter_link: charter.md
+  label: the-other-subproject
+  leadership:
+    chairs:
+    - github: johndoe
+      name: John Doe
+      company: Red Hat
+      email: kehannon@redhat.com
+  meetings:
+  - description: The Other Subproject Regular Meeting
+    day: Thursdays
+    time: 3PM
+    tz: CET (Central European Time)
+    frequency: monthly
+    url: https://zoom.us/j/foo
+    archive_url: https://docs.google.com/document/foo
+    recordings_url: https://www.youtube.com/foo
+    calendar_url: https://calendar.google.com/calendar/foo
+  - description: Contributor Strategy Subproject Governance Meeting
+    day: Thursdays (starting February 1st 2024)
+    time: 3PM
+    tz: PT (Pacific Time)
+    frequency: monthly
+    url: https://zoom.us/j/foo
+    archive_url: https://docs.google.com/document/d/foo
+    recordings_url: https://www.youtube.com/playlist?list=foo
+    calendar_url: https://calendar.google.com/calendar/embed?src=foo
+  contact:
+    slack: wg-batch
+    mailing_list: https://groups.google.com/a/kubernetes.io/g/wg-batch
+    toc_liaison:
+      github: angellk
+      name: Karena Angell
