@@ -19,10 +19,8 @@ tags:
           github: "johndoe"
     meetings:
       - description: "TAG Meeting"
-        day: "Monday"
-        time: "10:00 AM"
-        tz: "UTC"
-        frequency: "Weekly"
+        tag_calendar: https://zoom-lfx.platform.linuxfoundation.org/meetings/cncf?view=week
+        recordings_url: https://www.youtube.com/playlist?foo
     contact:
       slack: "#example-tag"
       mailing_list: "[email address removed]"
