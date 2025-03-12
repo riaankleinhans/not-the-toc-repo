@@ -1,6 +1,5 @@
 # TAG Operational Resilience
 
-
 ## Mission Statement
 Observability, Management, Business Continuity, Resource Optimization, Cost Efficiency, Energy, Performance, Troubleshooting, Reliability, Day 2 Ops
 
@@ -12,7 +11,7 @@ Observability, Management, Business Continuity, Resource Optimization, Cost Effi
 - Riaan Kleinhans (**[@riaankleinhans](https://github.com/riaankleinhans)**), Linux Foundation
 
 ## Meetings
-- **TAG Meeting**: Thursday at 11:00 PT (Pacific Time), biweekly [Meeting Notes](https://docs.google.com/document/foo) | [Recordings](https://www.youtube.com/playlist?foo)
+- **TAG Operational Resilience Meeting**: [Calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/cncf?view=week) | [Recordings](https://www.youtube.com/playlist?foo)
 
 ## Contact
 - Slack: [#tag-operational-resilience](https://slack.cncf.io/messages/tag-operational-resilience)

@@ -11,7 +11,7 @@ Foo-Baz-Bar
 - Riaan Kleinhans (**[@riaankleinhans](https://github.com/riaankleinhans)**), Linux Foundation
 
 ## Meetings
-- **TAG Meeting**: Thursday at 11:00 PT (Pacific Time), biweekly [Meeting Notes](https://docs.google.com/document/foo) | [Recordings](https://www.youtube.com/playlist?foo)
+- **Contributor Strategy Subproject Meeting**: [Calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/cncf?view=week) | [Recordings](https://www.youtube.com/playlist?foo)
 
 ## Contact
 - Slack: [#contributor-strategy-subproject](https://slack.cncf.io/messages/contributor-strategy-subproject)

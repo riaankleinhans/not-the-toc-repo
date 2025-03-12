@@ -1,6 +1,5 @@
 # TAG Developer Experience
 
-
 ## Mission Statement
 Databases, Microservices, Streaming, Messaging, API Management, Dev Frameworks
 
@@ -12,7 +11,7 @@ Databases, Microservices, Streaming, Messaging, API Management, Dev Frameworks
 - Riaan Kleinhans (**[@riaankleinhans](https://github.com/riaankleinhans)**), Linux Foundation
 
 ## Meetings
-- **TAG Meeting**: Thursday at 11:00 PT (Pacific Time), biweekly [Meeting Notes](https://docs.google.com/document/foo) | [Recordings](https://www.youtube.com/playlist?foo)
+- **TAG Developer Experience Meeting**: [Calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/cncf?view=week) | [Recordings](https://www.youtube.com/playlist?foo)
 
 ## Contact
 - Slack: [#tag-developer-experience](https://slack.cncf.io/messages/tag-developer-experience)

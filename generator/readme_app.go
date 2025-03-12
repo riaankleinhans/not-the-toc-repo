@@ -28,14 +28,8 @@ type Leadership struct {
 
 type Meeting struct {
 	Description   string `yaml:"description"`
-	Day           string `yaml:"day"`
-	Time          string `yaml:"time"`
-	TZ            string `yaml:"tz"`
-	Frequency     string `yaml:"frequency"`
-	ArchiveURL    string `yaml:"archive_url"`
 	RecordingsURL string `yaml:"recordings_url"`
-	URL           string `yaml:"url,omitempty"`
-	CalendarURL   string `yaml:"calendar_url,omitempty"`
+	TagCalendar   string `yaml:"tag_calendar,omitempty"` // Change to TagCalendar
 }
 
 type Contact struct {

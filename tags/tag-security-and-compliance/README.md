@@ -1,6 +1,5 @@
 # TAG Security and Compliance
 
-
 ## Mission Statement
 Security hygiene, Policy-as-code, Compliance, Auditing, Threat Modeling, Secure Software Supply Chain
 
@@ -12,7 +11,7 @@ Security hygiene, Policy-as-code, Compliance, Auditing, Threat Modeling, Secure 
 - Riaan Kleinhans (**[@riaankleinhans](https://github.com/riaankleinhans)**), Linux Foundation
 
 ## Meetings
-- **TAG Meeting**: Thursday at 11:00 PT (Pacific Time), biweekly [Meeting Notes](https://docs.google.com/document/foo) | [Recordings](https://www.youtube.com/playlist?foo)
+- **TAG Security and Compliance Meeting**: [Calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/cncf?view=week) | [Recordings](https://www.youtube.com/playlist?foo)
 
 ## Contact
 - Slack: [#tag-security-and-compliance](https://slack.cncf.io/messages/tag-security-and-compliance)

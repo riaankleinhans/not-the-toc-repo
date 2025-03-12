@@ -16,11 +16,9 @@
 
 ## Meetings
 {{- range .Meetings }}
-- **{{.Description}}**: {{.Day}} at {{.Time}} {{.TZ}}, {{.Frequency}}  
-  {{- if .ArchiveURL }} [Meeting Notes]({{.ArchiveURL}}) {{- end }}
+- **{{.Description}}**: 
+  {{- if .TagCalendar }} [Calendar]({{.TagCalendar}}) {{- end }}
   {{- if .RecordingsURL }} | [Recordings]({{.RecordingsURL}}) {{- end }}
-  {{- if .URL }} | [Zoom]({{.URL}}) {{- end }}
-  {{- if .CalendarURL }} | [Calendar]({{.CalendarURL}}) {{- end }}
 {{- end }}
 
 ## Contact

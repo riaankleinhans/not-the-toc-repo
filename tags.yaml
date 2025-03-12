@@ -17,12 +17,8 @@ tags:
           company: Linux Foundation
           email: rkleinhans@contractor.linuxfoundation.org
     meetings:
-      - description: TAG Meeting
-        day: Thursday
-        time: "11:00"
-        tz: PT (Pacific Time)
-        frequency: biweekly
-        archive_url: https://docs.google.com/document/foo
+      - description: TAG Operational Resilience Meeting
+        tag_calendar: https://zoom-lfx.platform.linuxfoundation.org/meetings/cncf?view=week
         recordings_url: https://www.youtube.com/playlist?foo
     contact:
       slack: tag-operational-resilience
@@ -54,12 +50,8 @@ tags:
           company: Linux Foundation
           email: rkleinhans@contractor.linuxfoundation.org
     meetings:
-      - description: TAG Meeting
-        day: Thursday
-        time: "11:00"
-        tz: PT (Pacific Time)
-        frequency: biweekly
-        archive_url: https://docs.google.com/document/foo
+      - description: TAG Developer Experience Meeting
+        tag_calendar: https://zoom-lfx.platform.linuxfoundation.org/meetings/cncf?view=week
         recordings_url: https://www.youtube.com/playlist?foo
     contact:
       slack: tag-developer-experience
@@ -91,12 +83,8 @@ tags:
           company: Linux Foundation
           email: rkleinhans@contractor.linuxfoundation.org
     meetings:
-      - description: TAG Meeting
-        day: Thursday
-        time: "11:00"
-        tz: PT (Pacific Time)
-        frequency: biweekly
-        archive_url: https://docs.google.com/document/foo
+      - description: TAG Workloads Foundation Meeting
+        tag_calendar: https://zoom-lfx.platform.linuxfoundation.org/meetings/cncf?view=week
         recordings_url: https://www.youtube.com/playlist?foo
     contact:
       slack: tag-workloads-foundation
@@ -128,12 +116,8 @@ tags:
           company: Linux Foundation
           email: rkleinhans@contractor.linuxfoundation.org
     meetings:
-      - description: TAG Meeting
-        day: Thursday
-        time: "11:00"
-        tz: PT (Pacific Time)
-        frequency: biweekly
-        archive_url: https://docs.google.com/document/foo
+      - description: TAG Infrastructure Meeting
+        tag_calendar: https://zoom-lfx.platform.linuxfoundation.org/meetings/cncf?view=week
         recordings_url: https://www.youtube.com/playlist?foo
     contact:
       slack: tag-infrastructure
@@ -165,12 +149,8 @@ tags:
           company: Linux Foundation
           email: rkleinhans@contractor.linuxfoundation.org
     meetings:
-      - description: TAG Meeting
-        day: Thursday
-        time: "11:00"
-        tz: PT (Pacific Time)
-        frequency: biweekly
-        archive_url: https://docs.google.com/document/foo
+      - description: TAG Security and Compliance Meeting
+        tag_calendar: https://zoom-lfx.platform.linuxfoundation.org/meetings/cncf?view=week
         recordings_url: https://www.youtube.com/playlist?foo
     contact:
       slack: tag-security-and-compliance
@@ -202,12 +182,8 @@ toc_subprojects:
           company: Linux Foundation
           email: rkleinhans@contractor.linuxfoundation.org
     meetings:
-      - description: TAG Meeting
-        day: Thursday
-        time: "11:00"
-        tz: PT (Pacific Time)
-        frequency: biweekly
-        archive_url: https://docs.google.com/document/foo
+      - description: Project Reviews Subproject Meeting
+        tag_calendar: https://zoom-lfx.platform.linuxfoundation.org/meetings/cncf?view=week
         recordings_url: https://www.youtube.com/playlist?foo
     contact:
       slack: project-reviews-subproject
@@ -232,12 +208,8 @@ toc_subprojects:
           company: Linux Foundation
           email: rkleinhans@contractor.linuxfoundation.org
     meetings:
-      - description: TAG Meeting
-        day: Thursday
-        time: "11:00"
-        tz: PT (Pacific Time)
-        frequency: biweekly
-        archive_url: https://docs.google.com/document/foo
+      - description: Contributor Strategy Subproject Meeting
+        tag_calendar: https://zoom-lfx.platform.linuxfoundation.org/meetings/cncf?view=week
         recordings_url: https://www.youtube.com/playlist?foo
     contact:
       slack: contributor-strategy-subproject
