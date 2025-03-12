@@ -1,7 +1,8 @@
 # {{.Name}}
 
-## Mission Statement
-{{ .MissionStatement }}
+{{.MissionStatement}}
+
+[Charter](./charter.md)
 
 ## Leadership
 {{- if .Leadership.Chairs }}
@@ -14,14 +15,18 @@
 ## Meetings
 {{- range .Meetings }}
 - **{{.Description}}**: {{.Day}} at {{.Time}} {{.TZ}}, {{.Frequency}}  
-  [Meeting Notes]({{.ArchiveURL}}) | [Recordings]({{.RecordingsURL}})
+  {{- if .ArchiveURL }} [Meeting Notes]({{.ArchiveURL}}) {{- end }}
+  {{- if .RecordingsURL }} | [Recordings]({{.RecordingsURL}}) {{- end }}
+  {{- if .URL }} | [Zoom]({{.URL}}) {{- end }}
+  {{- if .CalendarURL }} | [Calendar]({{.CalendarURL}}) {{- end }}
 {{- end }}
 
 ## Contact
-- Slack: [#{{.Contact.Slack}}](https://kubernetes.slack.com/messages/{{.Contact.Slack}})
+- Slack: [#{{.Contact.Slack}}](https://slack.cncf.io/messages/{{.Contact.Slack}})
 - [Mailing List]({{.Contact.MailingList}})
+- TOC Liaison: {{.Contact.TOCLiaison.Name}} (**[@{{.Contact.TOCLiaison.GitHub}}](https://github.com/{{.Contact.TOCLiaison.GitHub}})**)
 
 ## Subprojects
 {{- range .TagSubprojects }}
-- **{{.Name}}** ([Mailing List]({{.Contact.MailingList}}))
+- **{{.Name}}**: [Mailing List]({{.Contact.MailingList}})
 {{- end }}
