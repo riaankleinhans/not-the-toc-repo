@@ -1,0 +1,49 @@
+name: Generate README on Tags Change
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - tags.yaml
+  workflow_dispatch:
+    inputs:
+      check_all_prs:
+        description: 'Check all open pull requests?'
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: read
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: 'stable'
+
+      - name: Run readme_app.go
+        working-directory: generator
+        run: |
+          go run readme_app.go
+
+      - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add .
+          git commit -m "Update README based on tags.yaml changes" || echo "No changes to commit"
+          git push origin ${{ github.event.pull_request.head.ref }}
